@@ -1,17 +1,18 @@
 *.pyc
-/style.rcc
-/style_pyside_rc.py
-./.idea
-/.idea/
-/dist/
-/QDarkStyle.egg-info/
-/build/
+*.orig
+
+dist/
+build/
+
+*.egg-info/
 __pycache__
+
 *.tar
 *.tar.*
 *.log
 *.log.*
 *.sig
+
 pkg/
 src/
 
@@ -26,3 +27,14 @@ deb_dist
 # hackedit project files
 .hackedit
 
+# vs code project files
+.vscode
+.mypy_cache
+.cache
+.env
+./.idea
+/.idea/
+.tox
+
+# OSX files
+.DS_Store
